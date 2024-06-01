@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+header .left h1 {
+    margin: 0;
+}
+
+header nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 80px);
+    padding: 20px;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.intro .descricao {
+    max-width: 600px;
+    margin-right: 50px;
+}
+
+.intro .text h2 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.intro .text p {
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+
+.intro .social-links a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.intro .social-links img {
+    width: 40px;
+    height: 40px;
+}
+
+.intro .photo img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
